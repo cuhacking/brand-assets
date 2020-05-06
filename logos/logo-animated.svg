@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+  width="100%"
+  height="100%"
+  viewBox="0 0 274 274"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xml:space="preserve"
+  xmlns:serif="http://www.serif.com/"
+  style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;"
+>
+  <style type="text/css">
+    .line {
+      fill: none;
+      stroke: white;
+      stroke-width: 7.5;
+      stroke-linecap: round;
+      stroke-miterlimit: 1.5;
+    }
+
+    #one {
+      animation: draw 0.5s ease-in-out 3s;
+      animation-fill-mode: forwards;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+    }
+
+    #two {
+      animation: draw 0.5s ease-in-out 3.4s;
+      animation-fill-mode: forwards;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+    }
+
+    #three {
+      animation: draw 0.5s ease-in-out 3.6s;
+      animation-fill-mode: forwards;
+      stroke-dasharray: 200;
+      stroke-dashoffset: -200;
+    }
+
+    #four {
+      animation: draw 0.5s ease-in-out 4s;
+      animation-fill-mode: forwards;
+      stroke-dasharray: 200;
+      stroke-dashoffset: -200;
+    }
+
+    #five {
+      animation: draw 0.5s ease-in-out 4.6s;
+      animation-fill-mode: forwards;
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+    }
+
+    @keyframes draw {
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+
+  <g transform="matrix(1,0,0,1,0.214,0)">
+    <rect x="0.687" y="0" width="273.099" height="273.099" style="fill: white; fill-rule: nonzero;" />
+  </g>
+  <g transform="matrix(1.40651,0,0,1.40651,-55.7882,-51.6664)">
+    <path
+      d="M122.567,203.667C60.488,189.944 112.689,87.891 145.386,42.746C134.955,69.774 163.365,122.169 178.874,144.988C185.197,173.043 178.874,216.113 122.567,203.667Z"
+      style="fill: url(#_Linear1); fill-rule: nonzero;"
+    />
+  </g>
+  <g transform="matrix(1.40651,0,0,1.40651,-55.7882,-51.6664)">
+    <path
+      d="M95.871,134.258C105.363,100.981 126.773,63.898 143.226,41.182L147.875,43.707C145.505,49.846 145.269,57.656 146.671,66.497C148.068,75.304 151.054,84.899 154.879,94.454C162.529,113.566 173.407,132.2 181.08,143.489L181.365,143.908L181.476,144.402C184.706,158.734 184.833,177.34 176.478,190.914C172.249,197.784 165.878,203.3 156.831,206.232C147.836,209.146 136.375,209.451 121.991,206.271C113.845,204.47 107.412,201.181 102.554,196.605C97.694,192.027 94.543,186.284 92.772,179.783C89.256,166.881 91.134,150.861 95.871,134.258ZM106.212,192.722C110.254,196.53 115.769,199.432 123.143,201.062C136.912,204.106 147.357,203.694 155.186,201.157C162.964,198.637 168.335,193.966 171.935,188.118C179.151,176.395 179.361,159.699 176.381,146.063C168.563,134.496 157.656,115.746 149.926,96.437C146.014,86.662 142.883,76.665 141.403,67.333C140.702,62.916 140.362,58.595 140.503,54.485C125.654,76.861 108.968,107.79 101,135.721C96.359,151.99 94.784,166.878 97.918,178.381C99.472,184.082 102.172,188.917 106.212,192.722Z"
+      style="fill: white; stroke: white; stroke-width: 0.71px;"
+    />
+  </g>
+  <path id="one" d="M85.341,127.25L194.834,154.084" class="line" />
+  <path id="two" d="M196.194,157.293L99.513,237.264" class="line" />
+  <path id="three" d="M127.432,140.646L99.513,237.264" class="line" />
+  <path id="four" d="M87.72,124.364L158.525,84.386" class="line" />
+  <path id="five" d="M88.898,126.453L111.83,194.443" class="line" />
+  <defs>
+    <linearGradient
+      id="_Linear1"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(9.98852e-15,163.125,-163.125,9.98852e-15,137.237,42.7461)"
+    >
+      <stop offset="0" style="stop-color: rgb(255, 255, 255); stop-opacity: 1;">
+        <animate
+          attributeName="stop-color"
+          values="rgb(255,255,255);rgb(255,255,255); rgb(0, 208, 254)"
+          to="rgb(124, 57, 191)"
+          dur="1.5s"
+          begin="1.6s"
+          fill="freeze"
+        />
+        <animate attributeName="offset" from=".6" to="0" dur="1s" begin="1.6s" fill="freeze" />
+      </stop>
+      <stop offset="1" style="stop-color: rgb(255, 255, 255); stop-opacity: 1;">
+        <animate
+          attributeName="stop-color"
+          values="rgb(255,255,255); rgb(0, 208, 254); rgb(124, 57, 191)"
+          dur="1.5s"
+          begin="1.6s"
+          fill="freeze"
+        />
+      </stop>
+    </linearGradient>
+  </defs>
+</svg>
